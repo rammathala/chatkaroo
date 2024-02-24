@@ -1,0 +1,51 @@
+.Login{
+  height: 100%;
+  display: flex;
+  background-color:aliceblue;
+  align-items: center;
+  justify-content: center;
+   
+}
+.chati{
+    height: 350px;
+    margin-top: -20px;
+}
+.for >h2{
+    font-family: cursive;
+   
+}
+.for{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    background-color:rgb(222, 238, 252);
+    border-radius: 10px;
+  flex-direction: column;
+  padding: 25px 0;
+}
+.Button > div{
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: -16px;
+    margin-right: 10px;
+}
+.Button >div> img{
+ height: 100%;
+
+}
+.Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px !important;
+    width: max-content;
+    letter-spacing: 2px !important;
+    padding-right:25px !important;
+    background-color: black !important;
+    
+}

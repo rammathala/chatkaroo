@@ -1,0 +1,70 @@
+.Chats{
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.Search,.Search>.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+   height: 100px;
+}
+.inputs{
+    margin-left: 5px;
+    width: 70% !important;
+}
+.Search>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(247, 243, 243);
+    padding: 15px 15px;
+    border-radius: 5px;
+    color: grey !important;
+}
+.m{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.chatusers{
+    margin-top:5px ;
+    width: 100%;
+    background-color:whitesmoke;
+    flex: 1;
+    border-radius: 20px;
+    padding: 0 10px;
+    overflow-y: auto;
+}
+.chatuser{
+    height:80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(224, 220, 220);
+    transition:all 0.3s ;
+   
+}
+.chatimage{
+   height: 50px;
+   width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.chatuser:hover{
+    background-color:white;
+    cursor: pointer;
+    scale: 1.04;
+}
+.chatuser>p{
+    font-weight: 600;
+    
+}
